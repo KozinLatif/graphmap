@@ -1,6 +1,6 @@
 # Simple weighted undirected graph to represent a network
 
-The program allows the user to open a map (a background image), define locations on the map with mouse clicks, create connections between these locations, and then find a path between two user-selected locations. 
+The program allows the user to open a map (a background image), define locations on the map with mouse clicks, create connections between these locations, and then find a path between two locations. 
 
 Includes classes ListGraph and Edge for the representation of simple weighted undirected graphs implemented by adjacency lists. Written generically so that they can be used in other applications as well.
 
