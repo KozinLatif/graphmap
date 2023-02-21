@@ -2,6 +2,8 @@
 
 The program allows the user to open a map (a background image), define locations on the map with mouse clicks, create connections between these locations, and then find a path between two user-selected locations. 
 
+Includes classes ListGraph and Edge for the representation of simple weighted undirected graphs implemented by adjacency lists. Written generically so that they can be used in other applications as well.
+
 <img width="1137" alt="Screenshot 2023-02-21 at 20 03 21" src="https://user-images.githubusercontent.com/29358769/220435806-d74a922e-dd1d-4877-95f0-54c507664020.png">
 
 # Implementations
@@ -25,5 +27,3 @@ The program allows the user to open a map (a background image), define locations
 • <b>pathExists</b>: Takes two nodes and returns true if there is a path through the graph from one node to the other (possibly over many other nodes), otherwise false is returned. If either of the nodes is not in the graph, false is also returned. Uses a helper method for depth-first search through a graph.
 
 • <b>getPath</b>: Takes two nodes and returns a list of edges that represent a path between these nodes through the graph, or null if there is no path between these two nodes.
-
-The program includes a class ListGraph and a class Edge for the representation of simple weighted undirected graphs implemented by adjacency lists. These classes are written generically so that they can be used by other applications as well.
