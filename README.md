@@ -6,7 +6,7 @@ The program uses a graph data structure to represent the network of locations an
 
 <img width="1137" alt="Screenshot 2023-02-21 at 20 03 21" src="https://user-images.githubusercontent.com/29358769/220435806-d74a922e-dd1d-4877-95f0-54c507664020.png">
 
-# Included
+# Implementations
 
 • <b>Add</b>: receives a node and adds it to the graph. If the node already exists in the graph, there will be no change.
 
