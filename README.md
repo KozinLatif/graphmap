@@ -20,10 +20,10 @@ The program includes a class ListGraph and a class Edge for the representation o
 
 • <b>getNodes</b>: Returns a copy of the set of all nodes.
 
-• <b>getEdgesFrom</b>: Takes a node and returns a copy of the collection of all edges leading from this node. If the node is missing in the graph, the NoSuchElementException exception is generated.
+• <b>getEdgesFrom</b>: Takes a node and returns a copy of the collection of all edges leading from this node. If the node is missing in the graph, throws NoSuchElementException.
 
-• <b>getEdgeBetween</b>: Takes two nodes and returns the edge between these nodes. If either of the nodes is missing in the graph, the NoSuchElementException exception is generated. If there is no edge between the nodes, null is returned.
+• <b>getEdgeBetween</b>: Takes two nodes and returns the edge between these nodes. If either of the nodes is missing in the graph, throws NoSuchElementException. If there is no edge between the nodes, null is returned.
 
 • <b>pathExists</b>: Takes two nodes and returns true if there is a path through the graph from one node to the other (possibly over many other nodes), otherwise false is returned. If either of the nodes is not in the graph, false is also returned. Uses a helper method for depth-first search through a graph.
 
-• <b>getPath</b>: Takes two nodes and returns a list of edges that represent a path between these nodes through the graph, or null if there is no path between these two nodes. In the simplest version, the method returns any path between the two nodes, but optionally, one can create a solution that returns the shortest path (in the number of edges that must be traversed) or the fastest path (taking into account the edges' weights).
+• <b>getPath</b>: Takes two nodes and returns a list of edges that represent a path between these nodes through the graph, or null if there is no path between these two nodes.
